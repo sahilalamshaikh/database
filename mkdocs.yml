@@ -1,0 +1,27 @@
+site_name: Database Learning Workspace
+site_description: Database concepts with MySQL, PostgreSQL, and SQL Server
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.footer
+    - toc.integrate
+
+plugins:
+  - search
+  - monorepo
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Database Concepts: '!include ./database-concepts/mkdocs.yml'
+  - MySQL: '!include ./mysql/mkdocs.yml'
+  - PostgreSQL: '!include ./postgres/mkdocs.yml'
+  - SQL Server: '!include ./sqlserver/mkdocs.yml'

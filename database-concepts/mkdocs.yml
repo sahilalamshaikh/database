@@ -1,0 +1,12 @@
+site_name: Database Concepts
+docs_dir: docs
+
+nav:
+  - Overview: index.md
+  - Relational Model: relational-model.md
+  - Keys and Constraints: keys-and-constraints.md
+  - Relationships and Normalization: relationships-and-normalization.md
+  - Queries and Joins: queries-and-joins.md
+  - Transactions: transactions.md
+  - Indexes and Query Plans: indexes-and-query-plans.md
+  - Gate dbms candidate key: gate_dbms_candidate_keys.md

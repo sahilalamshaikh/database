@@ -1,0 +1,1 @@
+"""SQL Server-specific examples and exercises."""

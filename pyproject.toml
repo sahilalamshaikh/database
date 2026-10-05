@@ -1,0 +1,9 @@
+[tool.uv.workspace]
+members = ["database-concepts", "mysql", "postgres", "sqlserver"]
+
+[dependency-groups]
+docs = [
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.7.7",
+    "mkdocs-monorepo-plugin>=1.1.2",
+]

@@ -152,6 +152,9 @@ activemq-data/
 # Environments
 .env
 .envrc
+.env.*
+!.env.example
+!.env.template
 .venv
 env/
 venv/
@@ -167,7 +170,7 @@ venv.bak/
 .ropeproject
 
 # mkdocs/Zensical documentation
-/site
+**/site/
 
 # mypy
 .mypy_cache/
@@ -218,3 +221,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor temporary files
+*.swp
+*.swo
+*~

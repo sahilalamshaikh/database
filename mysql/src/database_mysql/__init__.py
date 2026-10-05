@@ -1,0 +1,1 @@
+"""MySQL-specific examples and exercises."""

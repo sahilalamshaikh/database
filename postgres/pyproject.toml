@@ -1,0 +1,13 @@
+[project]
+name = "database-postgres"
+version = "0.1.0"
+description = "PostgreSQL examples and exercises"
+requires-python = ">=3.11"
+dependencies = ["database-concepts"]
+
+[tool.uv.sources]
+database-concepts = { workspace = true }
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
